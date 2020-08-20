@@ -1,0 +1,16 @@
+{
+  "mailer": {
+    "transport": {
+      "host": "host",
+      "port": port,
+      "secure": false,
+      "auth": {
+        "user": "user",
+        "pass": "pass"
+      }
+    },
+    "filesystem": {
+      "tmpPath": "/tmp/history.log"
+    }
+  }
+}

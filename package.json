@@ -1,0 +1,19 @@
+{
+  "name": "logmailer",
+  "version": "1.0.0",
+  "description": "Log mailer - A simple CLI tool to mail git logs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --no-warnings ./src/index.js"
+  },
+  "author": "Jaya Chandra",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.1.0",
+    "config": "^3.3.1",
+    "nodemailer": "^6.4.11",
+    "simple-git": "^2.17.0"
+  }
+}
